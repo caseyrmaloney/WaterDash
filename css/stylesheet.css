@@ -1,0 +1,177 @@
+body{ 
+    margin: 0%;
+    background-color: #EFEFEF;
+    font-family: Montserrat;
+   
+
+}
+
+header{ 
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.headericon{ 
+  
+    width: 30vh;
+}
+
+nav{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Montserrat;
+
+}
+
+nav ul{
+    display: inline-block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+nav li{ 
+    display: inline-block;
+    padding-right: 80px;
+    margin-bottom: 1em;
+    color: #0048A1;
+    text-align: -webkit-match-parent;
+}
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 300;
+    color: #0048A1;
+
+}
+
+.section1{ 
+    background-image: url(../images/water.jpeg);
+    height: 80vh;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.heroh1{ 
+    color: white;
+    font-family: Montserrat;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 7em;
+ 
+}
+
+.sections{ 
+    color: #0048A1;
+    font-size: 40px;
+    margin-left: 2em;
+    
+}
+
+.climatechange{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.climatechange li{ 
+    display: inline-block;
+    padding: 40px 100px; 
+
+}
+
+.circle a{  
+    display: inline-block;
+    padding: 30px 30px;
+    border-radius: 100%;
+    color: #EFEFEF;
+    background-color: #0048A1;
+    line-height: 100px;
+    
+
+}
+
+
+
+.h2section{ 
+    font-size: 30px;
+    margin-left: 5em;
+    color:#3B84E6;
+
+}
+
+p{ 
+    font-size: 18px;
+    margin-left: 9em;
+}
+
+.profile{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileigmg{ 
+    height: 14em;
+    border-radius: 100%;
+    line-height: 100px;
+    padding: 10px 40px;
+   
+
+}
+
+.profilenames{ 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h3{ 
+    padding: 0px 10em;
+}
+
+.casey{
+    margin-left: 1em;
+}
+
+.components .prjcomp { 
+    margin-left: 9em;
+    font-size: 18px;
+    text-decoration: none;
+  
+}
+
+li{ 
+    list-style: none;
+}
+
+.causesdiv{
+    margin-top: 10px;
+    background-color: #0048A1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.cause1img{ 
+    width: 90vh; 
+}
+
+.cause2{ 
+    margin-top: 5em;
+}
+
+.cause3{ 
+    margin-top: 5em;
+}
+.cause4{ 
+    margin-top: 5em;
+}
