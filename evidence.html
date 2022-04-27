@@ -17,6 +17,22 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,400;1,600&display=swap"
         rel="stylesheet">
 
+        <script src="https://unpkg.com/topojson@3"></script>
+        <!-- import D3 Version 6 here or at the end of the body -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.7.0/d3.min.js"></script>
+
+        <!-- Load d3.js -->
+<script src="https://d3js.org/d3.v4.js"></script>
+        
+        <!-- load our custom D3 code (must happen after D3 is loaded) -->
+        <script src="./map1.js"></script>
+
+        <style>
+            .bar {
+                fill: steelblue;
+            }
+        </style>
+
 
 
 </head>
@@ -42,11 +58,18 @@
         <!-- MAP 1  -->
         <section class="map1"> 
         
-            <h1 class="sections"> WATER USAGE PER STATE </h1>
+
+
+            <h1 class="sections"> EMISSIONS LEVELS IN THE US </h1>
 
             <!-- need to create an svg element  -->
              <!-- create an SVG canvas for us to modify -->
-             <svg id="map2" width="1200" height="800"></svg>
+
+               <!-- need to create an svg element  -->
+            <svg id="map4" width="2000" height="500"></svg>
+            <script src="./map4.js"></script>
+          
+            
 
             <p> 
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -98,7 +121,8 @@
             
 
             <!-- need to create an svg element  -->
-            <svg id="4" width="1200" height="800"></svg>
+            <svg id="map1" width="2000" height="500"></svg>
+            <script src="./map1.js"></script>
 
             <p> 
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
