@@ -9,7 +9,7 @@
        .attr("x", 50)
        .attr("y", 50)
        .attr("font-size", "24px")
-       .text("Total water withdrawals for the United States, 1950-2015")
+       .text("Total Emissions Levels in the US from 1975-2020")
 
     var xScale = d3.scaleBand().range([0, width]).padding(0.4),
         yScale = d3.scaleLinear().range([height, 0]);
@@ -37,7 +37,7 @@
 
         g.append("g")
          .call(d3.axisLeft(yScale).tickFormat(function(d){
-             return  d + " Bgal/d";
+             return  d + " Co2e";
             
          })
          .ticks(10))
