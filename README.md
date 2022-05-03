@@ -1,7 +1,6 @@
 # WaterDash
 
-## JOSH VAZQUEZ and CASEY MALONEY
-
+### By: Josh Vazquez and Casey Maloney 
 
 # Our Mission 
 
