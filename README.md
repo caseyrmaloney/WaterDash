@@ -44,4 +44,4 @@ Some princples that were used when designing this website:
 3. Project Component #3: https://docs.google.com/document/d/1gu5Kgb2WAQHJrtyzI_gyJ7CTevfLyPc8Gy75HeB5CXA/edit?usp=sharing
 4. Project Component #4; https://docs.google.com/document/d/1ZhjY6hpBBL6wVVGF6jtjOugZPQFx2me0WPf3UMAO4b0/edit?usp=sharing
 5. Project Component #5: https://docs.google.com/document/d/1ZG2e3-ASsCWApSSYpFpx4h9tHF7KuF-KdCdt-KPLD6o/edit?usp=sharing
-6. Project Component #7: https://temple.zoom.us/rec/play/GxIZJl2JiILMV_6_lpbkm_9jGnL4I1GNScRV0TsGcVnFRLQRsmManiAG5eJCx9He8em9LV6FfP6rmWA-.g0D5PQfJLYqI6-Yh
+6. Project Component #7: https://docs.google.com/document/d/1cwDYHA_7QEHlfGDAqKaFOQZT5YPhbwaSO-9OxXJcf7A/edit?usp=sharing
