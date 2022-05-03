@@ -37,7 +37,7 @@
 
         g.append("g")
          .call(d3.axisLeft(yScale).tickFormat(function(d){
-             return  d + "Bgal/d";
+             return  d + " Bgal/d";
             
          })
          .ticks(10))
@@ -47,7 +47,7 @@
          .attr("dy", "-5.1em")
          .attr("text-anchor", "end")
          .attr("stroke", "black")
-         .text("Water Usage");
+         .text("");
 
         g.selectAll(".bar")
          .data(data)

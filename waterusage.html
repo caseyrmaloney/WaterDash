@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF=8">
+  <title> Water Dash</title>
+  <!--remember after any attribute in html you must use an equal "=" sign
+        <link rel="stylesheet" type "text/css" href="css/stylesheet.css">-->
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,400;1,600&display=swap"
+    rel="stylesheet">
+
+  <style>
+    
+
+    .axis path,
+    .axis line {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+    }
+
+    .x.axis path {
+      display: none;
+    }
+  </style>
+
+</head>
+
+
+
+
+<body>
+
+  <header>
+
+    <a href="index.html"> <img class="headericon" src="./images/Water Dash.png"> </a>
+  
+  </header>
+  
+  <nav>
+    <ul>
+  
+      <li> <a href="index.html">Our Project </a></li>
+      <li> <a href="evi.html">Evidence </a></li>
+      <li> <a href="solutions.html"> Solutions</a></li>
+      <li> <a href="resources.html"> Resources</a></li>
+    </ul>
+  </nav>
+  
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+
+  
+
+         <!-- MAP 1  -->
+         <section class="map1"> 
+        
+
+
+          <h1 class="sections"> WATER USAGE IN THE US </h1>
+
+          <!-- need to create an svg element  -->
+           <!-- create an SVG canvas for us to modify -->
+
+             <!-- need to create an svg element  -->
+
+             <div class="ma"> 
+              <svg id="waterusage" width="2000" height="500"></svg>
+              <script src="./WATERUSAGE.js"></script>
+
+             </div>
+      
+        
+          
+
+          <p> 
+            Water use in the United States in 2015 was estimated to be about 322 billion gallons per day (Bgal/d), which was 9 percent less than in 2010. The 2015 estimates put total withdrawals at the lowest level since before 1970, following the same overall trend of decreasing total withdrawals observed from 2005 to 2010. Freshwater withdrawals were 281 Bgal/d, or 87 percent of total withdrawals, and saline-water withdrawals were 41.0 Bgal/d, or 13 percent of total withdrawals. Fresh surface-water withdrawals (198 Bgal/d) were 14 percent less than in 2010, and fresh groundwater withdrawals (82.3 Bgal/day) were about 8 percent greater than in 2010. Saline surface-water withdrawals were 38.6 Bgal/d, or 14 percent less than in 2010. Total saline groundwater withdrawals in 2015 were 2.34 Bgal/d, mostly for mining use.      
+          </p>
+
+
+          <img class="usgimg" src="./images/wss-wuse-pipe-diagram-2015.png"> 
+          <p> The top row of cylinders represents where America's freshwater came from (source) in 2015, either from surface water (blue) or from groundwater (brown). You can see most of the water we use came from surface-water sources, such as rivers and lakes. About 26 percent of water used came from groundwater. The pipes leading out of the surface-water and groundwater cylinders on the top row and flowing into the bottom rows of cylinders (green) show the categories of water use where the water was sent after being withdrawn from a river, lake, reservoir, or well.For example, the blue pipe coming out of the surface-water cylinder and entering the public supply cylinder shows that 23,800 Mgal/d of water was withdrawn from surface-water sources for public-supply uses (you probably get your water this way). Likewise, the brown pipe shows that public-suppliers withdrew another 15,200 Mgal/d of water from groundwater sources.Each green cylinder represents a category of water use. The industrial cylinder, for instance, shows how much groundwater, surface water, and total water was used inthe United States, each day, by industries.
+          </p>
+
+
+          <div class="but"> 
+            <div class="prev"> 
+                <a  href="./emissions.html" >Last</a> 
+
+            </div>
+
+            <div class="next">
+                <a  href="./risingsea.html" >Next </a> 
+
+            </div> 
+        </div>
+        
+
+</body>
+
+</html>

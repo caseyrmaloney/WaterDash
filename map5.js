@@ -1,52 +1,131 @@
-// set the dimensions and margins of the graph
-var margin = {top: 10, right: 30, bottom: 30, left: 60},
-    width = 460 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom;
+var data = [{
+    "name": "1990",
+    "value": 1,
+},
+{
+    "name": "1910",
+    "value": 1,
+},
+{
+    "name": "1920",
+    "value": 2,
+},
+{
+    "name": "1930",
+    "value": 2,
+},
+{
+    "name": "1940",
+    "value": 3,
+},
+{
+    "name": "1950",
+    "value": 4,
+},
+{
+    "name": "1960",
+    "value": 5,
+}, 
+{
+    "name": "1970",
+    "value": 5,
+}, 
+{
+    "name": "1980",
+    "value": 6,
+},
+{
+    "name": "1990",
+    "value": 6,
+},
+{
+    "name": "2000",
+    "value": 7,
+},
+{
+    "name": "2010",
+    "value": 9,
+},
+{
+    "name": "2019",
+    "value": 9,
+},
 
-// append the svg object to the body of the page
-var svg = d3.select("#my_dataviz")
-  .append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-  .append("g")
-    .attr("transform",
-          "translate(" + margin.left + "," + margin.top + ")");
+];
 
-//Read the data
-d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/3_TwoNumOrdered_comma.csv",
-
-  // When reading the csv, I must format variables:
-  function(d){
-    return { date : d3.timeParse("%Y-%m-%d")(d.date), value : d.value }
-  },
-
-  // Now I can use this dataset:
-  function(data) {
-
-    // Add X axis --> it is a date format
-    var x = d3.scaleTime()
-      .domain(d3.extent(data, function(d) { return d.date; }))
-      .range([ 0, width ]);
-    svg.append("g")
-      .attr("transform", "translate(0," + height + ")")
-      .call(d3.axisBottom(x));
-
-    // Add Y axis
-    var y = d3.scaleLinear()
-      .domain([0, d3.max(data, function(d) { return +d.value; })])
-      .range([ height, 0 ]);
-    svg.append("g")
-      .call(d3.axisLeft(y));
-
-    // Add the line
-    svg.append("path")
-      .datum(data)
-      .attr("fill", "none")
-      .attr("stroke", "steelblue")
-      .attr("stroke-width", 1.5)
-      .attr("d", d3.line()
-        .x(function(d) { return x(d.date) })
-        .y(function(d) { return y(d.value) })
-        )
-
+//sort bars based on value
+data = data.sort(function (a, b) {
+return d3.ascending(a.value, b.value);
 })
+
+//set up svg using margin conventions - we'll need plenty of room on the left for labels
+var margin = {
+top: 15,
+right: 25,
+bottom: 15,
+left: 60
+};
+
+var width = 960 - margin.left - margin.right,
+height = 500 - margin.top - margin.bottom;
+
+var svg = d3.select("#map5").append("svg")
+.attr("width", width + margin.left + margin.right)
+.attr("height", height + margin.top + margin.bottom)
+.append("g")
+.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+var x = d3.scale.linear()
+.range([0, width])
+.domain([0, d3.max(data, function (d) {
+    return d.value;
+})]);
+
+var y = d3.scale.ordinal()
+.rangeRoundBands([height, 0], .1)
+.domain(data.map(function (d) {
+    return d.name;
+}));
+
+//make y axis to show bar names
+var yAxis = d3.svg.axis()
+.scale(y)
+//no tick marks
+.tickSize(0)
+.orient("left");
+
+var gy = svg.append("g")
+.attr("class", "y axis")
+.call(yAxis)
+
+var bars = svg.selectAll(".bar")
+.data(data)
+.enter()
+.append("g")
+
+//append rects
+bars.append("rect")
+.attr("class", "bar")
+.attr("y", function (d) {
+    return y(d.name);
+})
+.attr("height", y.rangeBand())
+.attr("x", 0)
+.attr("width", function (d) {
+    return x(d.value);
+});
+
+//add a value label to the right of each bar
+bars.append("text")
+.attr("class", "label")
+//y position of the label is halfway down the bar
+.attr("y", function (d) {
+    return y(d.name) + y.rangeBand() / 2 + 4;
+})
+//x position is 3 pixels to the right of the bar
+.attr("x", function (d) {
+    return x(d.value) + 3;
+})
+.text(function (d) {
+    return d.value;
+});

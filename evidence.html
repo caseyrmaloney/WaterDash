@@ -31,6 +31,28 @@
             .bar {
                 fill: steelblue;
             }
+
+            body {
+            font-family: "Arial", sans-serif;
+        }
+        
+        .bar {
+            fill: #5f89ad;
+        }
+        
+        .axis {
+            font-size: 13px;
+        }
+        
+        .axis path,
+        .axis line {
+            fill: none;
+            display: none;
+        }
+        
+        .label {
+            font-size: 13px;
+        }
         </style>
 
 
@@ -66,8 +88,12 @@
              <!-- create an SVG canvas for us to modify -->
 
                <!-- need to create an svg element  -->
-            <svg id="map4" width="2000" height="500"></svg>
-            <script src="./map4.js"></script>
+
+               <div> 
+                <svg id="map4" width="2000" height="500"></svg>
+                <script src="./map4.js"></script>
+               </div>
+        
           
             
 
@@ -80,71 +106,49 @@
 
         </section>
 
-        <!-- MAP 2  -->
-        <section class="map2"> 
-            
-            <h1 class="sections"> DROUGHT IN THE US </h1>
-
-            <!-- need to create an svg element  -->
-            <!-- create an SVG canvas for us to modify -->
-            <svg id="2" width="1200" height="800"></svg>
-
-            <p> 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            
-
-            
-        </section>
-
-        <!-- MAP 3  -->
-        <section class="map3"> 
-
-            <h1 class="sections">TEMPERATURE INCREASE</h1>
-
-            <!-- need to create an svg element  -->
-            <!-- create an SVG canvas for us to modify -->
-            <svg id="3" width="1200" height="800"></svg>
-
-            <p> 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            
-
-            
-        </section>
-
-        <!-- MAP 4  -->
-        <section class="map4"> 
-
-            <h1 class="sections">WATER USAGE OVER THE YEARS</h1>
-            
-
-            <!-- need to create an svg element  -->
-            <svg id="map1" width="2000" height="500"></svg>
-            <script src="./map1.js"></script>
-
-            <p> 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            
-        </section>
-
-         <!-- MAP 5  -->
-         <section class="map5"> 
-
+        <section> 
             <h1 class="sections">RISING SEA LEVELS</h1>
-
+    
             <!-- need to create an svg element  -->
-            <svg id="5" width="1200" height="800"></svg>
-
+            <div> 
+                <svg id="map5" width="2000" height="500"></svg>
+                <script src="./map5.js"></script>
+              
+                
+            </div>
+            
+          
+            
+    
             <p> 
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
             
-
-            
         </section>
+    
+       
+    
+        <section>
+            <h1 class="sections">WATER USAGE OVER THE YEARS</h1>
+                
+            <div>
+                    <!-- need to create an svg element  -->
+                    <script src="https://d3js.org/d3.v3.min.js"></script>
+    
+                    <svg id="waterusage" width="2000" height="500"></svg>
+                            <script src="./WATERUSAGE.js"></script>
+                
+    
+    
+            </div> 
+        
+            <p> 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            
+    
+        </section> 
+    
     </body>
 
 

@@ -1,0 +1,251 @@
+[
+    {
+        "categorie": "1950", 
+        "values": [
+            {
+                "value": 174, 
+                "rate": "Fresh"
+            }, 
+            {
+                "value": 10, 
+                "rate": "Salin"
+            }, 
+            {
+                "value": 184, 
+                "rate": "Total"
+            }
+            
+        ]
+    }, 
+    {
+        "categorie": "1955", 
+        "values": [
+            {
+                "value": 227, 
+                "rate": "Fresh"
+            }, 
+            {
+                "value": 19, 
+                "rate": "Salin"
+            }, 
+            {
+                "value": 246, 
+                "rate": "Total"
+            }
+        ]
+    }, 
+    {
+        "categorie": "1960", 
+        "values": [
+            {
+                "value": 240, 
+                "rate": "Fresh"
+            }, 
+            {
+                "value": 31, 
+                "rate": "Salin"
+            }, 
+            {
+                "value": 271, 
+                "rate": "Total"
+            }
+        ]
+    }, 
+    {
+        "categorie": "1965", 
+        "values": [
+            {
+                "value": 270, 
+                "rate": "Fresh"
+            }, 
+            {
+                "value": 44, 
+                "rate": "Salin"
+            }, 
+            {
+                "value": 314, 
+                "rate": "Total"
+            }
+        ]
+    }, 
+    {
+        "categorie": "1970", 
+        "values": [
+            {
+                "value": 318, 
+                "rate": "Fresh"
+            }, 
+            {
+                "value": 54, 
+                "rate": "Salin"
+            }, 
+            {
+                "value": 372, 
+                "rate": "Total"
+            }
+            
+        ]
+    }, 
+    {
+        "categorie": "1975", 
+        "values": [
+            {
+                "value": 342, 
+                "rate": "Fresh"
+            }, 
+            {
+                "value": 70, 
+                "rate": "Salin"
+            }, 
+            {
+                "value": 412, 
+                "rate": "Total"
+            }
+            
+        ]
+    },
+    {
+        "categorie": "1980", 
+        "values": [
+            {
+                "value": 363, 
+                "rate": "Fresh"
+            }, 
+            {
+                "value": 71.9, 
+                "rate": "Salin"
+            }, 
+            {
+                "value": 435, 
+                "rate": "Total"
+            }
+            
+        ]
+    },
+    {
+        "categorie": "1985", 
+        "values": [
+            {
+                "value": 336, 
+                "rate": "Fresh"
+            }, 
+            {
+                "value": 60.3, 
+                "rate": "Salin"
+            }, 
+            {
+                "value": 396, 
+                "rate": "Total"
+            }
+            
+        ]
+    },
+    {
+        "categorie": "1990", 
+        "values": [
+            {
+                "value": 335, 
+                "rate": "Fresh"
+            }, 
+            {
+                "value": 68.3, 
+                "rate": "Salin"
+            }, 
+            {
+                "value": 403, 
+                "rate": "Total"
+            }
+            
+        ]
+    },
+    {
+        "categorie": "1995", 
+        "values": [
+            {
+                "value": 337, 
+                "rate": "Fresh"
+            }, 
+            {
+                "value": 60.8, 
+                "rate": "Salin"
+            }, 
+            {
+                "value": 398, 
+                "rate": "Total"
+            }
+            
+        ]
+    },
+    {
+        "categorie": "2000", 
+        "values": [
+            {
+                "value": 349, 
+                "rate": "Fresh"
+            }, 
+            {
+                "value": 63.5, 
+                "rate": "Salin"
+            }, 
+            {
+                "value": 416, 
+                "rate": "Total"
+            }
+            
+        ]
+    },
+    {
+        "categorie": "2005", 
+        "values": [
+            {
+                "value": 349, 
+                "rate": "Fresh"
+            }, 
+            {
+                "value": 60.9, 
+                "rate": "Salin"
+            }, 
+            {
+                "value": 410, 
+                "rate": "Total"
+            }
+            
+        ]
+    },
+    {
+        "categorie": "2010", 
+        "values": [
+            {
+                "value": 306, 
+                "rate": "Fresh"
+            }, 
+            {
+                "value": 48.3, 
+                "rate": "Salin"
+            }, 
+            {
+                "value": 355, 
+                "rate": "Total"
+            }
+            
+        ]
+    },
+    {
+        "categorie": "2015", 
+        "values": [
+            {
+                "value": 282, 
+                "rate": "Fresh"
+            }, 
+            {
+                "value": 41, 
+                "rate": "Salin"
+            }, 
+            {
+                "value": 322, 
+                "rate": "Total"
+            }
+            
+        ]
+    }
+]

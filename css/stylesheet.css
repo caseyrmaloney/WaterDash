@@ -1,7 +1,7 @@
 body{ 
     margin: 0%;
     background-color: #EFEFEF;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
    
 
 }
@@ -55,6 +55,13 @@ a{
     align-items: center;
     justify-content: center;
 
+}
+
+.section1sol{ 
+    background-image: url(../images/climate-change-and-global-warming-scaled.webp);
+    height: 100vh;
+    background-size: cover;
+   
 }
 
 .heroh1{ 
@@ -175,3 +182,69 @@ li{
 .cause4{ 
     margin-top: 5em;
 }
+
+
+.resourcesimg{ 
+    height: 30vh; 
+}
+
+.list{ 
+    margin-left: 9em;
+}
+
+.res{
+    margin: 25px 90px;
+}
+
+.res2{
+    margin: 25px 90px;
+    text-align: center;
+    justify-content: center;
+}
+
+.eviimg{ 
+
+    height: 50vh;
+    float: center;
+
+
+}
+
+.ma{
+    justify-self: center; 
+    align-items: center;
+}
+
+
+.but{ 
+    display: flex;
+}
+
+.prev{
+    align-items: left;
+    margin: 10px 90px ;
+   
+}
+
+.next{
+    align-items: right;
+    margin: 10px 10px ;
+
+    margin-left: 65em;
+
+    
+}
+
+#waterusage{ 
+    margin-left: 15em;
+}
+
+#map5{ 
+    margin-left: 15em;
+}
+
+.usgimg{ 
+    margin-left: 20em;
+    height: 80vh;
+}
+
