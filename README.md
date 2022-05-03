@@ -35,7 +35,7 @@ Some princples that were used when designing this website:
         - Color
         - Avoid clutter 
         
-# Check out our website: https://caseyrmaloney.github.io/WaterDash/index.html 
+# Check out our website: http://18.117.140.244/WaterDash/index.html
 
 # Check out our project components! 
 
